@@ -1,0 +1,38 @@
+.title {
+	-fx-padding: 5.0px;
+	-fx-font-weight: bold;
+	-fx-font-size: 250.0%;
+	-fx-alignment: center;
+	-fx-text-fill: #E6E6E6;
+}
+
+.background {
+	-fx-padding: 5.0px;
+	-fx-background-color: #242424;
+	-fx-alignment: center;
+}
+
+.optionsBackground {
+	-fx-padding: 5.0px;
+	-fx-background-color: #343534;
+	-fx-alignment: center;
+}
+
+.button {
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#696969, #000000);
+    -fx-background-insets: 0.0,1.0,4.0;
+    -fx-background-radius: 9.0,8.0,5.0;
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#000000, #696969);
+}
+
+.button:pressed {
+    -fx-background-color:
+    linear-gradient(#686868 0.0%, #232723 25.0%, #373837 75.0%, #757575 100.0%),
+    linear-gradient(#020B02, #3A3A3A),
+    linear-gradient(#9D9E9D 0.0%, #6B6A6B 20.0%, #343534 80.0%, #242424 100.0%);
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
